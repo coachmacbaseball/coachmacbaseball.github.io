@@ -45,3 +45,17 @@ footer {
   padding: 1em;
   margin-top: 2em;
 }
+.book-btn {
+  display: inline-block;
+  background-color: #cc0000;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.book-btn:hover {
+  background-color: #a00000;
+}
