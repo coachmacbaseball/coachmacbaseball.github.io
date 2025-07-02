@@ -14,11 +14,21 @@
   </nav>
 
   <div class="container">
-  <h1>Booking</h1>
-  <p>Preferred hours: Monday - Thursday, 12pm - 5pm.</p>
-  <p>To book a lesson, email <a href="mailto:mcwilliams.carter@yahoo.com">mcwilliams.carter@yahoo.com</a> or DM <a href="https://instagram.com/c_mcwilliams10" target="_blank">@c_mcwilliams10</a>.</p>
+  <h1>Book a Lesson</h1>
+  <p>Fill out the form below to request a lesson. Coach Mac will get back to you ASAP!</p>
 
-  <a href="mailto:mcwilliams.carter@yahoo.com?subject=Lesson Booking&body=Hi Coach Mac, I’d like to book a lesson." class="book-btn">📅 Book Now</a>
+  <form action="https://formsubmit.co/mcwilliams.carter@yahoo.com" method="POST">
+    <input type="text" name="name" placeholder="Your Full Name" required>
+    <input type="email" name="email" placeholder="Your Email Address" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <input type="text" name="date" placeholder="Preferred Date & Time" required>
+    <textarea name="message" rows="5" placeholder="Additional Info (age, skill level, etc)"></textarea>
+
+    <!-- Optional: Redirect after submission -->
+    <input type="hidden" name="_next" value="https://coachmacbaseball.com/thanks.html">
+
+    <button type="submit">📅 Submit Booking Request</button>
+  </form>
 </div>
 
 
