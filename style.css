@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #001f3f;
+}
+
+.slogan {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #cc0000;
+}
+
+nav {
+  background-color: #001f3f;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
